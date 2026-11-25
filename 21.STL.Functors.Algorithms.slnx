@@ -1,0 +1,12 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="01.Fucntors/01.Fucntors.vcxproj" Id="a09f1ecc-e9d4-47a3-8231-b11d9b8e2271" />
+  <Project Path="02.Lambdas/02.Lambdas.vcxproj" Id="dcf71b0b-ceae-45e3-a14e-0262f2819b6f" />
+  <Project Path="03.Algorithms.Sort.Find/03.Algorithms.Sort.Find.vcxproj" Id="25038e39-0f84-4184-895a-1c8d55419ac7" />
+  <Project Path="04.Algorithms.Count.Summary/04.Algorithms.Count.Summary.vcxproj" Id="9c7c726c-0274-4705-9c08-fcff352408f0" />
+  <Project Path="05.Algorithms.Modify/05.Algorithms.Modify.vcxproj" Id="8206865e-66dd-4ed5-9680-a76d08f13ddf" />
+  <Project Path="06.OtherAlgorithms/06.OtherAlgorithms.vcxproj" Id="0ae8a4dd-64ed-43b0-9cb0-89bd9735e21e" />
+</Solution>
