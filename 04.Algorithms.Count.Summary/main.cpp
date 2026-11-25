@@ -26,8 +26,8 @@ using namespace std;
 
   ----------------------------------------------------------------------------------------------------------------------------------------
 
-      count(first, last, value)              скільки елементів дорівнюють value
-      count_if(first, last, predicate)       скільки елементів задовольняють умову
+      count(first, last, value)                            скільки елементів дорівнюють value
+      count_if(first, last, predicate)                     скільки елементів задовольняють умову
       any_of / all_of / none_of(first, last, predicate)
       max_element / min_element(first, last)               для чисел і рядків
       max_element(first, last, comparator)                 компаратор відповідає на питання «a МЕНШЕ за b?»
@@ -35,11 +35,12 @@ using namespace std;
       accumulate(first, last, start, operation)            лямбда (total, element) повертає нове total
 
   Тип start визначає тип результату: accumulate(…, 0, …) рахує в int, accumulate(…, 0.0, …) — у double.
-  max_element і min_element для порожнього контейнера повертають end() — розіменовувати його не можна.
+  max_element і min_element повертає ітератор на елемент, а для порожнього контейнера повертають end() — розіменовувати його не можна.
 */
 
 class Student
 {
+private:
 private:
     string name;
     int age;
